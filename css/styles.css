@@ -84,7 +84,7 @@ main {
 .nav-header, footer {
   flex-shrink: 0; }
 
-@supports(background-blend-mode: multiply){
+/*@supports(background-blend-mode: multiply){
   .nav-header{
     background-blend-mode: multiply;
     background: url(../img/2nd_plan.png);
@@ -94,7 +94,7 @@ main {
     background-position: center center;
     background-size: cover;
   }
-}
+}*/
 
 .pull a, a:active, a:visited {
   color: #333;
@@ -321,7 +321,7 @@ nav .nav-inner {
   display: flex;
   justify-content: space-between;
   align-content: start;
-  padding: 20%; }
+  padding: 0 10% 0 10%; }
 
 nav .nav-inner .nav-links{
   padding-top: 10px; }
